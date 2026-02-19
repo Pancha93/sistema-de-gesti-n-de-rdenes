@@ -1,11 +1,11 @@
 export const environment = {
   production: true,
-  baseUrl: 'http://3.135.124.123:8080',
-  baseUrlApi: 'http://3.135.124.123:8080/api',
-  baseUrlGitHub: 'http://3.135.124.123:8080/authGitHub/github',
-  baseUrlRegistro: 'http://3.135.124.123:8080/auth/crearUsuario',
-  githubClientId: 'Ov23likeqVVWA4a7VMqX',
-  redirectUri:'http://localhost:4200/authentication/loginGithubCallback'
-  googleClientId: 'TU_CLIENT_ID_DE_PRODUCCIÓN',
-  baseUrlExportar: 'http://3.135.124.123:8080/api/generacion/exportar',
+  baseUrl: 'https://tu-backend.onrender.com',
+  baseUrlApi: 'https://tu-backend.onrender.com/api',
+  baseUrlGitHub: 'https://tu-backend.onrender.com/authGitHub/github',
+  baseUrlRegistro: 'https://tu-backend.onrender.com/auth/crearUsuario',
+  githubClientId: 'CLIENT_ID_PROD',
+  redirectUri: 'https://tu-frontend.netlify.app/authentication/loginGithubCallback',
+  googleClientId: 'CLIENT_ID_PROD_GOOGLE',
+  baseUrlExportar: 'https://tu-backend.onrender.com/api/generacion/exportar',
 };
